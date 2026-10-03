@@ -13,7 +13,7 @@ const Message = require("./models/message");
 const Conversation = require("./models/Conversation");
 const conversationRoutes = require("./routes/conversationRoutes");
 const authRoutes = require("./routes/authroutes");
-const authMiddleware = require("./middleware/authmiddleware");
+const authMiddleware = require("./middleware/authMiddleware");
 
 const app = express();
 
